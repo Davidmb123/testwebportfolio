@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Dayna Portafolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+        <link rel="shortcut icon" href="#" />
+        
+    </head>
+   <body>
+       <nav class="navbar">
+            <a href="/" class="navbar__logo"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </div>
+            <div class="navbar__menu">
+                <a href="#" class="navbar__link" id="linkInicio">Inicio</a>
+                <a href="#"class="navbar__link" id="linkGallery">Galeria</a>
+                <a href="#" class="navbar__link" id="linkAbout">¿Quién soy?</a>
+                <a href="#" class="navbar__link" id="linkContacto">Contacto</a>
+
+            </div>
+
+        </nav>
+        <a href="https://wa.me/526461623749">
+            <img src="img/whats.png" id="ayuda" alt="">
+        </a>
+       
+        <div class="hero">
+            <div class="hero__content">
+                <div class="container">
+                    <h1>Bienvenidos</h1>
+                    <button class="button" id="galleryButton"> Ir a Galeria </button>
+                </div>
+            </div>           
+        
+        </div>
+
+        <div class="gallery-section">
+            <div class="inner-width">
+              <h1>Galeria</h1>
+              <div class="border"></div>
+              <div class="gallery">
+      
+                <a href="img/blueboy.jpg" class="image">
+                  <img src="img/blueboy.jpg" alt="">
+                </a>
+      
+                <a href="img/borradorcito2.jpg" class="image">
+                  <img src="img/borradorcito2.jpg" alt="">
+                </a>
+      
+                <a href="img/Copia de halloween.jpg" class="image">
+                  <img src="img/Copia de halloween.jpg" alt="">
+                </a>
+      
+                <a href="img/Copia de shishias.jpg" class="image">
+                  <img src="img/Copia de shishias.jpg" alt="">
+                </a>
+      
+                <a href="img/Copia de yut.jpg" class="image">
+                  <img src="img/Copia de yut.jpg" alt="">
+                </a>
+      
+                <a href="img/dyto0o.jpg" class="image">
+                  <img src="img/dyto0o.jpg" alt="">
+                </a>
+      
+                <a href="img/fer2.jpg" class="image">
+                  <img src="img/fer2.jpg" alt="">
+                </a>
+
+                <a href="img/popissss.png" class="image">
+                    <img src="img/popissss.png" alt="">
+                </a>
+                <a href="img/ramen-Recovered5.jpg" class="image">
+                    <img src="img/ramen-Recovered5.jpg" alt="">
+                </a>
+                <a href="img/rana.jpg" class="image">
+                    <img src="img/rana.jpg" alt="">
+                </a>
+                <a href="img/tacos.jpg" class="image">
+                    <img src="img/tacos.jpg" alt="">
+                </a>
+             
+      
+              </div>
+              <br>
+              <br>
+              <h1>Animación</h1>
+              <div class="border"></div>
+              <div class="gallery">
+                <a href="img/Donas.m4v" class="video">
+                    <video alt="" controls>
+                        <source src="img/Donas.m4v" type="video/mp4">
+                    </video>
+                </a>
+      
+              </div>
+            </div>
+        </div>
+        <div class="about">
+            <img src="img/dayna.png" id="dayna"alt="">
+
+            <div class="aboutText">
+                    
+                <p>
+                    Soy Dayna Barrera, ilustradora y artista de personajes, artista Mexicana.
+                    Apasionada por dibujar ilustraciones coloridas y encantadoras que pueden hacer sonreír a la gente.
+    
+                </p>
+                <br>
+                <p>
+                    Actualmente trabajo como artista independiente y diseñadora. También desarrollo mis propios proyectos personales, principalmente centrados en el cómic y el arte conceptual.
+                    Educación: Ingeniería en Diseño Grafico Digital en Cetys Universidad.
+
+                </p>
+                <br>
+                <p>Idiomas: Inglés y español</p>
+
+                    
+                <img src="img/Copia de lonelybunny2.png" id="logo">
+
+            </div>
+
+          
+
+
+
+
+
+
+
+        </div>
+    
+
+        <script>
+          $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{
+              enabled: true
+            }
+          });
+        </script>
+   
+       
+       
+
+
+              
+     
+       <script src="app.js"></script>
+   </body>
+    
+
+</html>
